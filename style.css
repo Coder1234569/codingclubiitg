@@ -1,0 +1,570 @@
+body{
+    background-color: rgb(250, 248, 248);
+}
+#h1a{
+    font-family:"SedanSC-Regular.ttf";
+    font-size:3em;
+    color:white;
+    padding:15px;
+    
+    
+    
+}
+#a{
+    width:100%;
+    height:88px;
+    
+    background-image: repeating-linear-gradient(154deg ,rgb(36, 33, 33) ,black 7%);
+}
+.navbar{
+    height:40px;
+    
+    
+}
+.navbar ul{
+    list-style-type:none;
+    
+    padding:0px;
+    margin:0px;
+    overflow:hidden;
+    backdrop-filter:blur(3px);
+    background-color: white;
+    border-radius: 5px;
+}
+.navbar a{
+    text-decoration:none;
+    color:black;
+    padding:15px;
+    display:block;
+    text-align:center;
+    font-size:0.8em;
+    font-family:"Roboto-Regular.ttf";
+    font-weight: 600;
+}
+.navbar a:hover{
+    color:white;
+}
+.navbar li:hover{
+    background-color: black;
+}
+.navbar li{
+    float:left;
+    font-size:1.5em;
+}
+#weather{
+    height:40px;
+    position: relative;
+    tab-size:4;
+    background-color: rgb(224,224,224);
+}
+#weather pre{
+    padding:12px;
+}
+#big1{
+    width:34%;
+    height:61%;
+    display:inline-block;
+    margin-right:1%;
+    position: relative;
+    bottom:5%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    background-image: url('images/big1.jpg');
+    
+}
+#big2{
+    width:17%;
+    height:61%;
+    display:inline-block;
+    margin-right:1%;
+    position: relative;
+    bottom:5%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    background-image: url('images/big2.jpg');
+
+
+}
+.big3{
+    width:17%;
+    height:61%;
+    background-color: white;
+    display:inline-block;
+    margin-right:3%;
+    position: relative;
+    bottom:5%;
+}
+.big3 #m1{
+    width:100%;
+    height:48%;
+    display:block;
+    margin-bottom: 6.8%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    background-image: url('images/m1.jpg');
+
+
+}
+.big3 #m2{
+    width:100%;
+    height:48%;
+    display:block;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    background-image: url('images/m2.jpg');
+
+
+}
+.final{
+    background-color: white;
+    width:26%;
+    height:66%;
+    display:inline-block;
+    position: relative;
+    
+}
+#big1 #b1{
+    position: absolute;
+    top:61.5%;
+    left:15%;
+    -ms-transform: translate(-61.5%,-15%);
+    transform: translate(-61.5%,-15%);
+    color: white;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    background-color: black;
+    border-radius: 10px;
+    border: none;
+    
+    
+    
+}
+#big1 #b2{
+    position: absolute;
+    top:62%;
+    left: 29%;
+    -ms-transform: translate(-62%,-29%);
+    transform: translate(-62%,-29%);
+    color: white;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    background-color: black;
+    border-radius: 10px;
+    border: none;
+
+}
+#big1 #text{
+    position: absolute;
+    top:69%;
+    left:8%;
+    color: white;
+    font-size: 2em;
+    height:20%;
+    width:80%;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+}
+#big1 #date{
+    position: absolute;
+    top:90%;
+    left:8%;
+    width:13%;
+    height:5%;
+    color:white;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#big1 #time{
+    position: absolute;
+    top:90%;
+    left:23%;
+    width:50%;
+    color:white;
+}
+#big2 #b1{
+    position: absolute;
+    top:61.5%;
+    left:25%;
+    -ms-transform: translate(-61.5%,-25%);
+    transform: translate(-61.5%,-25%);
+    color: white;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    background-color: black;
+    border-radius: 10px;
+    border: none;
+
+}
+#big2 #b2{
+    position: absolute;
+    top:62.5%;
+    left: 52%;
+    -ms-transform: translate(-62.5%,-52%);
+    transform: translate(-62.5%,-52%);
+    color: white;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    background-color: black;
+    border-radius: 10px;
+    border: none;
+
+}
+#big2 #text{
+    position: absolute;
+    top:68%;
+    left:8%;
+    color: white;
+    font-size: 1.5em;
+    height:13%;
+    width:80%;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+}
+#big2 #date{
+    position: absolute;
+    top:84%;
+    left:8%;
+    width:25%;
+    height:5%;
+    color:white;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#big2 #time{
+    position: absolute;
+    top:92%;
+    left:8%;
+    width:60%;
+    color:white;
+}
+#m1 #b1{
+    position: absolute;
+    top:10%;
+    left:13%;
+    -ms-transform: translate(-10%,-13%);
+    transform: translate(-10%,-13%);
+    color: white;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    background-color: black;
+    border-radius: 10px;
+    border: none;
+    
+
+}
+#m1 #b2{
+    position: absolute;
+    top:11%;
+    left: 39%;
+    -ms-transform: translate(-11%,-39%);
+    transform: translate(-11%,-39%);
+    color: white;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    background-color: black;
+    border-radius: 10px;
+    border: none;
+
+}
+#m1 #text{
+    position: absolute;
+    top:17%;
+    left:8%;
+    color: white;
+    font-size: 1.3em;
+    height:12%;
+    width:80%;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+}
+#m1 #date{
+    position: absolute;
+    top:31%;
+    left:8%;
+    width:25%;
+    height:5%;
+    color:white;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#m1 #time{
+    position: absolute;
+    top:39%;
+    left:8%;
+    width:60%;
+    color:white;
+}
+#m2 #b1{
+    position: absolute;
+    top:61.5%;
+    left:25%;
+    -ms-transform: translate(-61.5%,-25%);
+    transform: translate(-61.5%,-25%);
+    color: white;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    background-color: black;
+    border-radius: 10px;
+    border: none;
+
+}
+#m2 #b2{
+    position: absolute;
+    top:62.7%;
+    left: 52%;
+    -ms-transform: translate(-62.7%,-52%);
+    transform: translate(-62.7%,-52%);
+    color: white;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    background-color: black;
+    border-radius: 10px;
+    border: none;
+    
+
+}
+#m2 #text{
+    position: absolute;
+    top:69%;
+    left:8%;
+    color: white;
+    font-size: 1.3em;
+    height:12%;
+    width:80%;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+}
+#m2 #date{
+    position: absolute;
+    top:84%;
+    left:8%;
+    width:25%;
+    height:5%;
+    color:white;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#m2 #time{
+    position: absolute;
+    top:92%;
+    left:8%;
+    width:60%;
+    color:white;
+}
+.final{
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: rgb(250, 248, 248);
+}
+.final .navbar{
+    position: absolute;
+}
+.final #f1{
+    
+    background-color: rgb(36, 36, 163);
+    border-radius: 5px;
+}
+.final #f2{
+    position:absolute;
+    top:14%;
+    height:20%;
+    width:80%;
+    display:block;
+    background-color: white;
+    border-radius: 5px;
+}
+#f2 img{
+    height:100%;
+    width:100%;
+    border-radius: 5px;
+    
+}
+#f2 #image{
+    display: inline-block;
+    height:90%;
+    width:30%;
+    position: absolute;
+    top:5%;
+    left:1.5%;
+}
+#f2 #text{
+    display: inline-block;
+    position: absolute;
+    height: 50%;
+    width:60%;
+    background-color: white;
+    top:5%;
+    left:35%;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+    font-size: 1.2em;
+    color: black;
+}
+#f2 #time{
+    position: absolute;
+    top:70%;
+    left:35%;
+    width:60%;
+    color:black;
+}
+
+
+.final #f3{
+    position:absolute;
+    top:35%;
+    height:20%;
+    width:80%;
+    display:block;
+    background-color: white;
+    border-radius: 5px;
+}
+#f3 img{
+    height:100%;
+    width:100%;
+    border-radius: 5px;
+    
+}
+#f3 #image{
+    display: inline-block;
+    height:90%;
+    width:30%;
+    position: absolute;
+    top:5%;
+    left:1.5%;
+}
+#f3 #text{
+    display: inline-block;
+    position: absolute;
+    height: 50%;
+    width:60%;
+    background-color: white;
+    top:5%;
+    left:35%;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+    font-size: 1.2em;
+    color: black;
+}
+#f3 #time{
+    position: absolute;
+    top:70%;
+    left:35%;
+    width:60%;
+    color:black;
+}
+.final #f4{
+    position:absolute;
+    top:56%;
+    height:20%;
+    width:80%;
+    display:block;
+    background-color: white;
+    border-radius: 5px;
+}
+#f4 img{
+    height:100%;
+    width:100%;
+    border-radius: 5px;
+    
+}
+#f4 #image{
+    display: inline-block;
+    height:90%;
+    width:30%;
+    position: absolute;
+    top:5%;
+    left:1.5%;
+}
+#f4 #text{
+    display: inline-block;
+    position: absolute;
+    height: 50%;
+    width:60%;
+    background-color: white;
+    top:5%;
+    left:35%;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+    font-size: 1.2em;
+    color: black;
+}
+#f4 #time{
+    position: absolute;
+    top:70%;
+    left:35%;
+    width:60%;
+    color:black;
+}
+.final #f5{
+    position:absolute;
+    top:77%;
+    height:20%;
+    width:80%;
+    display:block;
+    background-color: white;
+    border-radius: 5px;
+}
+#f5 img{
+    height:100%;
+    width:100%;
+    border-radius: 5px;
+    
+}
+#f5 #image{
+    display: inline-block;
+    height:90%;
+    width:30%;
+    position: absolute;
+    top:5%;
+    left:1.5%;
+}
+#f5 #text{
+    display: inline-block;
+    position: absolute;
+    height: 50%;
+    width:60%;
+    background-color: white;
+    top:5%;
+    left:35%;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+    font-size: 1.2em;
+    color: black;
+}
+#f5 #time{
+    position: absolute;
+    top:70%;
+    left:35%;
+    width:60%;
+    color:black;
+}
+
+#spc{
+    padding-left: 25px;
+    padding-right: 25px;
+    
+}
+#f1{
+    position: relative;
+    left:4.5%;
+}
+
+
+
+
