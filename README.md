@@ -1,1 +1,1 @@
-# Task1 repo develped by Tanuj Kumat of codingclub IITG
+# Task1 repo by Tanuj Kumat of codingclub IITG
